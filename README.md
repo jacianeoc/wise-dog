@@ -16,7 +16,7 @@
 </p>
 
 
-Neste repositória de encontra código de um site gerador de conselhos e de imagens de Cachorros 
+Neste repositório se encontra código de um site gerador de conselhos e de imagens de Cachorros 
 
 # Techs: 
 - React
