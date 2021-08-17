@@ -1,9 +1,9 @@
 import axios from 'axios';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import '../styles/wise.css';
 
 export function WiseRoom() {
-  const [wise, setWise] = useState('');
+  const [wise, setWise] = useState("clique no botão");
   const [imageDog, setImageDog] = useState('');
 
   /**
@@ -32,10 +32,6 @@ export function WiseRoom() {
     handleImageDog();
   }
 
-  useEffect(() => {
-    handleOtherCard();
-
-  }, []);
 
   return(
     <div className="main-container-wise">
