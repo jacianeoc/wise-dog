@@ -1,0 +1,40 @@
+
+.main-container-wise{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width:500px;
+
+
+}
+.container-wise{
+  width: 600px;
+  height: 400px;
+  
+  display: flex;
+
+}
+.card-wise{
+  width: 250px;
+  height: 400px;
+  color: var(--orange);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.imagine-dog img{
+  width: 350px;
+  height: 400px;
+  border-radius: 0 5px 5px 0;
+}
+
+button{
+  background-color: var(--orange);
+  padding: 10px 15px;
+  color: var(--white);
+  border-radius: 10px;
+}

@@ -1,0 +1,47 @@
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.box-container{
+  padding-top: 20%;
+  padding-right: 50px;
+}
+
+.box-container h2{
+  color: var(--light-orange);
+  font-size: 50px;
+}
+
+.box-container h1{
+  color: var(--orange);
+
+  font-weight: 900;
+  font-size: 70px;
+}
+.give-wise{
+  background: var(--orange);
+  border-radius: 15px;
+
+  padding: 20px 40px;
+  box-shadow: none;
+}
+
+.link{
+  text-decoration: none;
+  color: var(--white);
+
+  font-weight: 900;
+
+}
+
+.main-container img{
+  width: 300px;
+}
+
