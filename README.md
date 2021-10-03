@@ -20,3 +20,4 @@ Neste repositório se encontra código de um site gerador de conselhos e de imag
 
 # Techs: 
 - React
+- axios
