@@ -27,9 +27,9 @@ export function WiseRoom() {
     } 
   }
   
-  function handleOtherCard() {
-    handleWise();
-    handleImageDog();
+  async function handleOtherCard() {
+    await handleWise();
+    await handleImageDog();
   }
 
 
